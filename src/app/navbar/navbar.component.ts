@@ -6,8 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-
-  constructor() { }
+homeLink:string;
+aboutLink:string;
+  constructor() {
+    this.homeLink="Home";
+    this.aboutLink="Learn more";
+   }
 
   ngOnInit(): void {
   }

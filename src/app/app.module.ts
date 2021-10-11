@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { ContentComponent } from './content/content.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { AboutMzComponent } from './about-mz/about-mz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeroComponent,
-    ContentComponent
+    ContentComponent,
+    HomePageComponent,
+    AboutMzComponent
   ],
   imports: [
     BrowserModule,

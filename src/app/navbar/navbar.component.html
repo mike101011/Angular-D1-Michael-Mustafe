@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" routerLink="/">Classwork1</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -15,10 +15,12 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" routerLink="/">{{
+            homeLink
+          }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Learn more</a>
+          <a class="nav-link" routerLink="/about">{{ aboutLink }}</a>
         </li>
       </ul>
     </div>
